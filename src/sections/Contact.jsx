@@ -21,13 +21,13 @@ const Contact = () => {
         try {
             await  emailjs.send(
             'service_nwlpa5p',
-            'template_i7m2z38',
+            'template_8sinvzj',
             {
                 from_name: form.name,
                 to_name: 'Oleksandr',
                 from_email: 'bfmvenom45@gmail.com',
                 message: form.message
-            }, "Cah-pYcmPfW60qQ0Z" // Your user ID from EmailJS
+            }, "Cah-Cah-pYcmPfW60qQ0Z" // Your user ID from EmailJS
        
         
     )  
